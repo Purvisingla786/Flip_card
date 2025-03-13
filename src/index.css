@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flip-card{
+  perspective: 1000px;
+}
+
+.flip-inner{
+  transform-style: preserve-3d;
+}
+
+.flip{
+  transform: rotateY(180deg);
+}
+
+.faces{
+  backface-visibility: hidden;
+}
+
+.container{
+  background-color: rgb(203, 216, 214);
+}
